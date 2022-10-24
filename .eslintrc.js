@@ -14,6 +14,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
   ],
   rules: {
-    'local-rules/disallow-expect-to-be-defined': 'error'
+    'local-rules/disallow-expect-to-be-defined': 'warn'
   }
 };
